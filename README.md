@@ -2,6 +2,8 @@
 
 A graphical user interface for monitoring NATS messages built with Go and the Fyne framework. Designed to work with NATS version 1.4.
 
+<img width="948" height="530" alt="image" src="https://github.com/user-attachments/assets/ee67a551-9db3-46d3-acf8-8a958e7659a4" />
+
 ## Features
 
 - **Subscribe to NATS subjects** with wildcard support
@@ -52,6 +54,9 @@ Or specify a custom NATS server URL:
   - **Payload preview** (clickable hyperlink, first 200 characters, word-wrapped)
 
 ### Message Details Modal
+<img width="948" height="530" alt="image" src="https://github.com/user-attachments/assets/86d483d4-fdf4-4226-8757-6d5fa32b3aeb" />
+
+
 - Click on the payload text of any message to open the detail modal
 - Automatically formats JSON and YAML payloads with proper indentation
 - Full payload is displayed in a scrollable text area
