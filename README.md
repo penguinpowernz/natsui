@@ -38,26 +38,24 @@ Or specify a custom NATS server URL:
 ### Left Panel - Subscriptions
 - Enter a subject pattern (e.g., `foo.bar`, `events.*`, `data.>`)
 - Click **Subscribe** to start listening
-- Each subscription shows:
-  - Subject name and message count
-  - **View** button to display messages
+- Each subscription shows on one line:
+  - **Subject name and message count** (clickable - click to view messages)
   - **Clear** button (🗑️ icon) to remove all messages
   - **Delete** button (❌ icon) to unsubscribe
 
 ### Right Panel - Messages
-- Select a subscription from the left panel to view its messages
+- Click on any subscription from the left panel to view its messages
 - Messages are displayed newest first in card format
-- Each card shows:
-  - Subject name
-  - Timestamp (YYYY-MM-DD HH:MM:SS.mmm)
-  - Payload preview (first 200 characters)
-  - **View Details** button
+- Each card shows on one line:
+  - **Subject name** (left-aligned, bold)
+  - **Timestamp** (right-aligned, format: YYYY-MM-DD HH:MM:SS.mmm)
+  - **Payload preview** (clickable hyperlink, first 200 characters, word-wrapped)
 
 ### Message Details Modal
-- Click **View Details** on any message to open a modal window
-- Automatically formats JSON and YAML payloads
+- Click on the payload text of any message to open the detail modal
+- Automatically formats JSON and YAML payloads with proper indentation
 - Full payload is displayed in a scrollable text area
-- Copy-friendly format
+- Copy-friendly format for easy copying to clipboard
 
 ## Message Retention
 
